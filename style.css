@@ -83,6 +83,19 @@ a[href^="mailto:"]:hover {
     border-bottom: 1px solid #555; 
 }
 
+a[href^="tel:"] {
+    color: #333;              
+    text-decoration: none;     
+    font-weight: bold;         
+    border-bottom: 1px dotted #333;  
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a[href^="tel:"]:hover {
+    color: #100;              
+    border-bottom: 1px solid #555; 
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -139,19 +152,6 @@ a:active {
     background-color: #777;
     transform: scale(0.95);
     transition: background-color 0.1s ease, transform 0.1s ease;
-}
-
-a[href^="tel:"] {
-    color: #333;              
-    text-decoration: none;     
-    font-weight: bold;         
-    border-bottom: 1px dotted #333;  
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-}
-
-a[href^="tel:"]:hover {
-    color: #100;              
-    border-bottom: 1px solid #555; 
 }
 
 .redaction {
