@@ -170,11 +170,11 @@ a[href^="tel:"]:hover {
 }
 
 .redaction-logo {
-    float: left; /* Align the image to the left of the text */
-    width: 50px; /* Set a small width for the logo */
-    height: 50px; /* Ensure the height matches the width */
-    border-radius: 50%; /* Make the image round */
-    margin-right: 15px; /* Add some space between the image and the text */
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
 }
 
 .book-list {
