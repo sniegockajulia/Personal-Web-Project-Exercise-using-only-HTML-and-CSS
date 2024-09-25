@@ -29,12 +29,30 @@ nav ul li a {
 }
 
 header {
+    position: relative; /* To position the overlay */
     background-image: url('header-bg.jpg');
     background-size: cover;
     color: black;
     text-align: center;
     padding: 60px 20px;
 }
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6); /* White semi-transparent overlay */
+    z-index: 1; /* Place the overlay under the text */
+}
+
+header h1, header p {
+    position: relative; /* Make sure text is on top of the overlay */
+    z-index: 2;
+}
+
 
 header h1 {
     font-size: 2em;
