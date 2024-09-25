@@ -160,19 +160,15 @@ a[href^="tel:"]:hover {
 }
 
 .redaction h2 {
-    text-align: left;
-    padding-right: 65px;
-    position: relative;
+    text-align: center;
 }
 
 .redaction-logo {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    float: right;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-left: 0px;
 }
 
 .redaction p {
