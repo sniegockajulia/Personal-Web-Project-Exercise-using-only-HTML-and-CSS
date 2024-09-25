@@ -99,15 +99,18 @@ footer {
     text-decoration: none;
 }
 
+/* Social media links */
 .social-media {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     padding: 0;
     list-style-type: none;
+    justify-items: center;
 }
 
 .social-media li {
-    margin: 0 15px;
+    margin: 0;
 }
 
 .social-media a {
@@ -116,7 +119,9 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
 }
 
 .social-media a:hover {
