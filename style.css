@@ -160,7 +160,7 @@ a[href^="tel:"]:hover {
 }
 
 .redaction h2 {
-    text-align: center;
+    text-align: left;
 }
 
 .redaction-logo {
